@@ -1,7 +1,7 @@
 import unittest
 from selenium import webdriver
-from POM.Pages.SignInPage import SignInPage1
-from POM.Pages.Homepage import Homepage
+from StoreAutomationPrac.POM.Pages import SignInPage
+from StoreAutomationPrac.POM.Pages import Homepage
 import os
 
 
@@ -19,7 +19,7 @@ class SignInValidTestCases(unittest.TestCase):
 
     def test_create_account_valid(self):
         driver = self.driver
-        create = SignInPage1(driver)
+        create = SignInPage(driver)
         create.create_acc("boba")
 
     def test_get_dresses(self):

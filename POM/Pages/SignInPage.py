@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-class SignInPage1():
+class SignInPage():
 
     def __init__(self, driver):
         self.driver = driver

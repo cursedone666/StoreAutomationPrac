@@ -1,11 +1,11 @@
 import unittest
 from selenium import webdriver
-from POM.Pages.SignInPage import SignInPage1
-from POM.Pages.Homepage import Homepage
+from StoreAutomationPrac.POM.Pages.SignInPage import SignInPage
+from StoreAutomationPrac.POM.Pages.Homepage import Homepage
 import os
 
 
-class SignInValidTestCases(unittest.TestCase):
+class SignInCases(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
